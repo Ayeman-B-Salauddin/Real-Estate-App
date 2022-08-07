@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import axios from "axios";
@@ -28,7 +30,10 @@ const Home: NextPage<{ propertiesForSale: PropertiesForSale }> = ({
       <Head>
         <title>Real Estate</title>
         <meta name="description" content="Find real estate information" />
-        <link rel="icon" href="https://img.icons8-home-16.png" />
+        <link
+          rel="icon"
+          href="https://img.icons8.com/office/16/000000/home--v1.png"
+        />
       </Head>
       <Box>
         <Banner
@@ -40,7 +45,7 @@ const Home: NextPage<{ propertiesForSale: PropertiesForSale }> = ({
           imageUrl={home}
         />
         <Flex flexWrap="wrap" justifyContent="center">
-          {propertiesForSale.map((property: any) => (
+          {propertiesForSale?.map((property: any) => (
             <Property property={property} key={property.id} />
           ))}
         </Flex>

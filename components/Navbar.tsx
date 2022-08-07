@@ -16,7 +16,6 @@ const Navbar = () => (
           <Link href="/">Real Estate</Link>
         </Flex>
       </Box>
-
       <Spacer />
     </Flex>
   </>

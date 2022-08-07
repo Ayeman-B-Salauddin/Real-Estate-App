@@ -1,6 +1,7 @@
+// @ts-nocheck
+
 import { Box, Flex, Text, Button } from "@chakra-ui/react";
 import Image from "next/image";
-import Link from "next/link";
 
 export const Banner = ({ purpose, title1, title2, desc1, desc2, imageUrl }) => (
   <Flex flexWrap="wrap" justifyContent="center" alignItems="center" m="10">
