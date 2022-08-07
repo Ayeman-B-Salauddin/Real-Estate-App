@@ -134,7 +134,7 @@ export const filter = [
   },
 ];
 
-export const getFilterValues = (filterValues) => {
+export const getFilterValues = (filterValues: any) => {
   const {
     purpose,
     rentFrequency,
