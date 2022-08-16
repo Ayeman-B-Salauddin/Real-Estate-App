@@ -7,7 +7,7 @@ import { Box, Flex } from "@chakra-ui/react";
 import Property from "../components/Property";
 import { Banner } from "../components/Banner";
 import home from "../assets/home.jpg";
-import { PropertiesForSale } from "../types";
+import { PropertiesForSale } from "../types/types";
 export const baseUrl = "https://bayut.p.rapidapi.com";
 
 export const getData = async (url: any) => {
@@ -24,7 +24,6 @@ export const getData = async (url: any) => {
 const Home: NextPage<{ propertiesForSale: PropertiesForSale }> = ({
   propertiesForSale,
 }) => {
-  console.log(propertiesForSale);
   return (
     <div>
       <Head>

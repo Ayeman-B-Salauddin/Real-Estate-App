@@ -1,6 +1,5 @@
 // @ts-nocheck
-
-import { Box, Flex, Text, Button } from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
 import Image from "next/image";
 
 export const Banner = ({ purpose, title1, title2, desc1, desc2, imageUrl }) => (

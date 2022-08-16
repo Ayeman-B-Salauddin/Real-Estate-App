@@ -9,20 +9,6 @@ import { GoVerified } from "react-icons/go";
 import millify from "millify";
 
 import DefaultImage from "../assets/home.jpg";
-import { PropertiesForSale } from "../types";
-
-type propertyProp = {
-  property: {
-    coverPhoto: PropertiesForSale;
-    price: PropertiesForSale;
-    rooms: PropertiesForSale;
-    title: PropertiesForSale;
-    baths: PropertiesForSale;
-    area: PropertiesForSale;
-    isVerified: PropertiesForSale;
-    externalID: PropertiesForSale;
-  };
-};
 
 const Property = ({
   property: {
