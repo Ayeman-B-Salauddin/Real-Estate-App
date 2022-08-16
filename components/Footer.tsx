@@ -114,7 +114,7 @@ export const Footer = () => (
       </Stack>
     </Stack>
     <Divider />
-    <Stack
+    {/* <Stack
       pt="8"
       pb="12"
       justify="space-between"
@@ -145,6 +145,6 @@ export const Footer = () => (
           icon={<FaTwitter fontSize="1.25rem" />}
         />
       </ButtonGroup>
-    </Stack>
+    </Stack> */}
   </Box>
 );
