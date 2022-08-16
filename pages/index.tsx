@@ -55,7 +55,7 @@ const Home: NextPage<{ propertiesForSale: PropertiesForSale }> = ({
 
 export const getStaticProps: GetStaticProps = async () => {
   const propertyForSale = await getData(
-    `${baseUrl}/properties/list?locationExternalIDs=5002&purpose=for-sale&hitsPerPage=25`
+    `${baseUrl}/properties/list?locationExternalIDs=5002&purpose=for-sale&hitsPerPage=24`
   );
 
   return {

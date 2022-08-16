@@ -4,6 +4,7 @@ import Head from "next/head";
 import NProgress from "nprogress";
 import { ChakraProvider } from "@chakra-ui/react";
 import { Layout } from "../components/Layout";
+import { SessionProvider } from "next-auth/react";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   NProgress.configure({ showSpinner: false });
@@ -17,7 +18,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   });
 
   return (
-    <>
+    <SessionProvider session={pageProps.session}>
       <Head>
         <link
           rel="stylesheet"
@@ -32,7 +33,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
           <Component {...pageProps} />
         </Layout>
       </ChakraProvider>
-    </>
+    </SessionProvider>
   );
 };
 
