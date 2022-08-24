@@ -6,11 +6,10 @@ A [Real Estate](https://real-estate-classic.vercel.app/) web application that fe
 
 ![1661356151312 (4)](https://user-images.githubusercontent.com/75086310/186465633-2ff8063d-642d-4643-a2bf-9a6394e9d3b8.png)
 
-
+___
 ##### * Reduced bundle size by 19% (first load js shared by all) using Preact. 
 ##### * Dealt with version incompatability of depedencies since Chakra v2 (Framer Motion 7 requires React v18) is not supported by Preact. 
 
-___
 
 #### React build [here](https://real-estate-classic.vercel.app/)
 
