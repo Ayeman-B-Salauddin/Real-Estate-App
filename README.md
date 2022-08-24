@@ -2,7 +2,7 @@
 
 Alhamdulillah. This project was finished on 17/08/22 (Initial Commit : 05/08/22). <br />
 
-A Real Estate web application that features Authentication, Pages, Responsive design, Image scrolling and much more. This app fetches data from an API and Generates static pages at build time using Next's getStaticProps.
+A [Real Estate](https://real-estate-classic.vercel.app/) web application that features Authentication, Pages, Responsive design, Image scrolling and much more. This app fetches data from an API and Generates static pages at build time using Next's getStaticProps.
 
 ##### * Reduced bundle size by 19% (first load js shared by all) using Preact. 
 ##### * Dealt with version incompatability of depedencies since Chakra v2 (Framer Motion 7 requires React v18) is not supported by Preact. 
