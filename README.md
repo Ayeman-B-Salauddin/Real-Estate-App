@@ -1,6 +1,6 @@
 ## Real Estate App (Built with React, ChakraUI and Typescript)
 
-Alhamdulillah. This project was finished on 17/08/22 (Initial Commit : 05/08/22). <br /><br />
+Alhamdulillah. This project was finished on 17/08/22 (Initial Commit : 05/08/22). <br />
 
 A Real Estate web application that features Authentication, Pages, Responsive design, Image scrolling and much more. This app fetches data from an API and Generates static pages at build time using Next's getStaticProps.
 
