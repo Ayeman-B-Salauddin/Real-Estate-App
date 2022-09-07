@@ -18,3 +18,5 @@ ___
 #### Preact build [here](https://real-estate-dabd77r6t-ayeman-b-salauddin.vercel.app/)
 
 ![Screenshot (14)](https://user-images.githubusercontent.com/75086310/185013023-b2d06f14-c6ea-4098-bcef-0eea9ed8f682.png)
+
+Checkout Adrian Hajdin for his this project ideas.
